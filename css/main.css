@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.map {
+    padding: 10px;
+    margin: 0;
+}
+
+.map__res {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.map__row {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.map__cell {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+
+    border: 2px solid #eee;
+}
+
+.map__cell_water {
+    background-color: #65a6ff;
+}
+
+.map__cell_island {
+    background-color: #fad946;
+}
+
+.border-left{
+    border-left: 2px solid #685600;
+}
+.border-top{
+    border-top: 2px solid #685600;
+}
+.border-right{
+    border-right: 2px solid #685600;
+}
+.border-bottom{
+    border-bottom: 2px solid #685600;
+}
+
+.border-left-inside{
+    border-left: 2px solid #fad946;
+}
+.border-top-inside{
+    border-top: 2px solid #fad946;
+}
+.border-right-inside{
+    border-right: 2px solid #fad946;
+}
+.border-bottom-inside{
+    border-bottom: 2px solid #fad946;
+}
+
+.islandPart{
+    background-color: #fad946;
+    font-weight: bold;
+}
